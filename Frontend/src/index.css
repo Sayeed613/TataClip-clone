@@ -1,0 +1,62 @@
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* Add this to your CSS file */
+.fixed {
+    position: fixed;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .bg-gray-800 {
+    background-color: #2D2D2D;
+  }
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  .overflow-hidden {
+    overflow: hidden;
+  }
+
+  .animate-scroll {
+    display: flex;
+    animation: scroll 20s linear infinite;
+  }
+
+  @keyframes wave {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-5px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  .waving-button {
+    animation: wave 1.5s ease-in-out infinite;
+  }
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
