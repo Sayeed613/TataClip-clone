@@ -2,6 +2,10 @@
 
 This project consists of a full-stack e-commerce admin dashboard for managing products, orders, users, and carts. The backend is built using Node.js with Express, MongoDB for database management, and authentication middleware. The frontend is built using React with Tailwind CSS for styling, and it includes features like adding products, listing products, tracking orders, and updating delivery details.
 
+## ADMINURL : https://tata-clip-clone-admin.vercel.app
+## FRONTEND : https://tata-clip-clone-frontend.vercel.app
+##BACKEND : https://tata-clip-clone-backend.vercel.app
+
 ## Table of Contents
 
 - [Features](#features)
