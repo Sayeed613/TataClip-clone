@@ -10,7 +10,7 @@ const ShopContextProvider = (props) => {
   const currency = "₹";
   const [products, setProducts] = useState([]);
   const delivery_fee = 99;
-  const backendUrl = "http://localhost:4000";
+  const backendUrl = "https://tata-clip-clone-backend.vercel.app";
 
   // Add to Cart Function
   const addToCart = async (itemId, size) => {
